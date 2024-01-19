@@ -34,7 +34,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [author]
   name = "Rami Bader"
   email = "contact@ramiiii.com"
-  link = "https://ramiiii.com"
+  link = "https://ramiiii.com/"
 
 # Menu config
 [menu]
@@ -92,15 +92,15 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "https://media.licdn.com/dms/image/C4D03AQFtKW27awu7rg/profile-displayphoto-shrink_800_800/0/1605963174557?e=1710979200&v=beta&t=RdeygpWrO8FgpYuG3kLO-zmATEANamClW2xUnZ8FQuc"
+      logo = ""
       # title name
-      name = ""
+      name = "Rami's Blog"
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = ""
+      pre = " "
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       #  whether to use typeit animation for title name
-      typeit = false
+      typeit = true
 
   # Footer config
   [params.footer]
@@ -108,7 +108,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  Custom content (HTML format is supported)
     custom = ''
     #  whether to show Hugo and theme info
-    hugo = true
+    hugo = false
     #  whether to show copyright info
     copyright = true
     #  whether to show the author
@@ -185,7 +185,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/static/images/1605963174557.jpeg"
+      avatarURL = "https://media.licdn.com/dms/image/C4D03AQFtKW27awu7rg/profile-displayphoto-shrink_800_800/0/1605963174557?e=1710979200&v=beta&t=RdeygpWrO8FgpYuG3kLO-zmATEANamClW2xUnZ8FQuc"
       #  title shown in home page (HTML format is supported)
       title = "Welcome to My Personal Blog"
       # subtitle shown in home page (HTML format is supported)
@@ -207,12 +207,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # Social config about the author
   [params.social]
-    GitHub = "xxxx"
-    Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    GitHub = "baderrami"
+    Linkedin = "ramiba"
+    Twitter = "BaderRami"
+    Instagram = ""
+    Facebook = ""
+    Telegram = "miggero"
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -280,8 +280,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     HackTheBox = ""
     RootMe= ""
     Phone = ""
-    Email = "xxxx@xxxx.com"
-    RSS = true # 
+    Email = "contact@ramiiii.com"
+    RSS = false # 
 
   #  Page global config
   [params.page]
@@ -527,7 +527,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   #  Cookie consent config
   [params.cookieconsent]
-    enable = true
+    enable = false
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
       message = ""
