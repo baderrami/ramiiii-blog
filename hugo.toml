@@ -4,7 +4,7 @@ baseURL = "https://baderrami.github.io/ramiiii-blog/"
 theme = "LoveIt"
 
 # website title
-title = "My New Hugo Site"
+title = "Ramiiii.com"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
