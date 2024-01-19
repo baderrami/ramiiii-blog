@@ -7,9 +7,9 @@ theme = "LoveIt"
 title = "Ramiiii.com"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
+languageCode = "ar"
 # language name ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
+languageName = "Arabic"
 # whether to include Chinese/Japanese/Korean
 hasCJKLanguage = false
 
